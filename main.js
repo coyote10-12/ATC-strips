@@ -16,7 +16,8 @@ function createStrip() {
     s.innerHTML = `
         <input placeholder="Callsign">
         <input placeholder="Route">
-        <input placeholder="Alt/Code">
+        <input placeholder="Alt">
+        <input placeholder="Speed (kts)">
         <button title="Delete">✕</button>
     `;
 
